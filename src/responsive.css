@@ -36,20 +36,17 @@
     .box-illustration {
         content: none;
 
-        display: ;
-
     }
-
 
     .bg-main-img {
         content: url('./assets/bg-pattern-mobile.svg');
 
-        width: 240px;
-        height: 100px;
+        width: 230px;
+        height: 105px;
 
         position: absolute;
         top: 0;
-        left: 70px;
+        left: 76px;
 
         z-index: 5;
 
@@ -65,12 +62,14 @@
 
         position: absolute;
         top: -110px;
-        left: 42px;
+        left: 50px;
+
+        width: 250px;
 
     }
     
     .content {
-        padding: 130px 30px 20px;
+        padding: 140px 30px 20px;
 
     }
 
