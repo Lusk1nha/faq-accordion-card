@@ -1,0 +1,109 @@
+@media screen and ( max-width: 1050px ) {
+    .container {
+        flex-direction: column;
+
+        min-width: 200px;
+        width: 370px;
+        height: 550px;
+
+        position: relative;
+
+        box-shadow: 0 40px 120px -50px rgba(0, 0, 0, 0.8);
+
+    }
+
+    .title {
+        text-align: center;
+        font-size: 35px;
+
+    }
+
+    .img-container {
+        height: 130px;
+
+        position: absolute;
+        top: 0px;
+
+    }
+
+    .overflow-img {
+        height: 80%;
+
+    }
+
+    .bg-main-img,
+    .woman-illustration,
+    .box-illustration {
+        content: none;
+
+        display: ;
+
+    }
+
+
+    .bg-main-img {
+        content: url('./assets/bg-pattern-mobile.svg');
+
+        width: 240px;
+        height: 100px;
+
+        position: absolute;
+        top: 0;
+        left: 70px;
+
+        z-index: 5;
+
+    }
+
+    .box-illustration {
+        content: url('./assets/illustration-woman-online-mobile.svg');
+
+        position: absolute;
+        top: -110px;
+        left: 42px;
+
+    }
+    
+    .content {
+        padding: 140px 30px 20px;
+
+    }
+
+    .rules {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+
+    }
+
+    .rule {
+        width: 315px;
+
+    }
+
+    .rule.selected:nth-child(1) {
+        margin-bottom: 30px;
+
+    }
+    
+    .rule.selected:nth-child(4) {
+        margin-bottom: 15px;
+
+    }
+
+    .outside-text {
+        width: 300px;
+
+    }
+
+    .icon-arrow-container {
+        width: 20px;
+
+        padding-left: 20px;
+        padding-right: 10px;
+
+    }
+    
+
+}
