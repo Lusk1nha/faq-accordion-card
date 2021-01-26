@@ -75,16 +75,17 @@ body {
 
 }
 
+
 .bg-main-img {
     content: url('./assets/bg-pattern-desktop.svg');
 
     width: 1020px;
     height: 900px;
-
+    
     position: absolute;
     top: -275px;
     left: -640px;
-
+    
     z-index: 1;
 
 }
@@ -92,9 +93,12 @@ body {
 .woman-illustration {
     content: url('./assets/illustration-woman-online-desktop.svg');
 
+    width: 450px;
+    height: 400px;
+
     position: absolute;
-    top: 45px;
-    left: -85px;
+    top: 30px;
+    left: -75px;
     
     z-index: 1;
     
@@ -104,6 +108,9 @@ body {
 
 .box-illustration {
     content: url('./assets/illustration-box-desktop.svg');
+
+    width: 200px;
+    height: 200px;
 
     position: absolute;
     top: 177px;
