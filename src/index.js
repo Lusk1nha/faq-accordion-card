@@ -46,6 +46,7 @@ const createElements = () => {
         let arrowIcon = document.createElement('img')
         arrowIcon.src = "./assets/icon-arrow-down.svg"
         arrowIcon.classList.add("icon-arrow")
+        arrowIcon.setAttribute('alt', "arrow icon")
 
         spanContainer.appendChild(arrowIcon)
 
